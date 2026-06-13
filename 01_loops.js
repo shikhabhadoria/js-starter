@@ -2,7 +2,7 @@
 
 // Print numbers 1 through 5
 function printOneToFive() {
-  for (let i = 1; i < 5; i++) {
+  for (let i = 1; i <= 5; i++) {
     console.log(i);
   }
 }
