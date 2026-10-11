@@ -2,7 +2,7 @@
 
 // Print numbers 1 through 5
 function printOneToFive() {
-  for (let i = 1; i <= 5; i++) {
+  for (let i = 1; i < 5; i++) {
     console.log(i);
   }
 }
@@ -13,7 +13,7 @@ printOneToFive();
 // Print numbers 10 down to 1
 function countdown() {
   let i = 10;
-  while (i > 0) {
+  while (i >= 1) {
     console.log(i);
     i--;
   }
