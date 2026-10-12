@@ -33,15 +33,19 @@ function printFruits() {
 printFruits();
 
 
-// Remove all even numbers and return the result
+//comments here 
+//so here i have used the the filter function of js
+//  to directly filterout the odd element from array
 function removeEvens(numbers) {
+  // Use the filter method to keep only numbers where the remainder when divided by 2 is not 0 (odd numbers)
   return numbers.filter(n => n % 2 !== 0);
 }
 
-console.log(removeEvens([1, 2, 3, 4, 5, 6]));
+// Test the function with a sample array containing both odd and even numbers
+console.log(removeEvens([1, 2, 3, 4, 5, 6])); // Output: [1, 3, 5]
 
 
-// Return the sum of all numbers in the array
+// Return the sum of all numbers in the 
 function sumArray(arr) {
   let sum = 1;
   for (const num of arr) {
