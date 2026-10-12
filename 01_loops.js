@@ -14,7 +14,7 @@ printOneToFive();
 function countdown() {
   let i = 10;
   while (i >= 1) {
-    console.log(i);
+    console.log(i);                         
     i--;
   }
 }
@@ -35,12 +35,7 @@ printFruits();
 
 // Remove all even numbers and return the result
 function removeEvens(numbers) {
-  for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2 === 0) {
-      numbers.splice(i, 1);
-    }
-  }
-  return numbers;
+  return numbers.filter(n => n % 2 !== 0);
 }
 
 console.log(removeEvens([1, 2, 3, 4, 5, 6]));
