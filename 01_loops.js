@@ -25,7 +25,7 @@ countdown();
 // Print each fruit name
 function printFruits() {
   const fruits = ["apple", "banana", "cherry"];
-  for (let fruit in fruits) {
+  for (let fruit of fruits) {
     console.log(fruit);
   }
 }
